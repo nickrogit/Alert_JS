@@ -1,0 +1,81 @@
+
+
+/*alert Confirm 组件*/
+.winpop-mask,
+.winpop-box {
+    display: none;
+    position: fixed;
+}
+.winpop-mask {
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .3;
+    filter: alpha(opacity=30);
+}
+.winpop-box {
+    left: 50%;
+    top: 50%;
+    z-index: 10000;
+    margin-top: -80px;
+    margin-left: -180px;
+    width: 360px;
+    height: 160px;
+    background-color: #fff;
+    /* border-top: 4px solid #fcb118; */
+}
+.winpop-box .winpop-main {
+    padding: 40px 20px;
+    height: 32px;
+    line-height: 24px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+.winpop-box .winpop-btns {
+    position: absolute;
+    left: 50%;
+    margin-left:-105px;
+    bottom: 25px;
+    width: 210px;
+    text-align: center;
+    overflow: hidden;
+}
+.winpop-box .pop-btn {
+    float: left;
+    position: relative;
+    width: 45%;
+    height: 33px;
+    background-color: #00b0f0;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+}
+.winpop-box .pop-btn:hover {
+    background-color: #fba903;
+    color: #fff;
+}
+.winpop-box .pop-btn:focus{
+  border: none;
+  outline: none;
+}
+.winpop-box .confirm-true {
+   /* margin-left:10px; */
+   width: 100px;
+}
+.winpop-box .confirm-false {
+   margin-left:10px;
+   width: 100px;
+}
+
+.winpop-box .alert-button {
+    width: 100%;
+}
